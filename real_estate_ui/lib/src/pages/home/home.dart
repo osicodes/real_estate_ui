@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gutter/flutter_gutter.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:projects/src/pages/home/home_group.dart';
 
-import '../classes/style_for_text.dart';
+import '../../classes/style_for_text.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -78,6 +79,8 @@ class _HomeState extends State<Home> {
                 fontWeight: FontWeight.w400,
               ),
             ),
+            GutterMedium(),
+            HomeGroup(),
           ],
         ),
       ),

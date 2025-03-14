@@ -3,7 +3,7 @@ import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:projects/src/pages/chat.dart';
 import 'package:projects/src/pages/explore.dart';
 
-import 'home.dart';
+import 'home/home.dart';
 
 class Base extends StatefulWidget {
   const Base({super.key});
